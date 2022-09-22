@@ -3,11 +3,11 @@
     padding: 0;
     margin: 0;
 }
-
+/* This sets the back ground of the whole document */
 body {
     background-color: #d9dcd6;
 }
-
+/* this creates padding around the header and creates a prioity list for the font   */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +15,16 @@ body {
     color: #ffffff;
 }
 
+/* first header This property is used to display an element as an inline-level block container sets the font size  to 48 pixels*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/*creates a class called seo while setting the text color to white*/
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/*creates padding while setting the margin aka space around teh header for 20 pixels, sets the font priority and font size*/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,21 +32,21 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* header class unorder list sets no style*/
 .header div ul {
     list-style-type: none;
 }
-
+/* an unlist order that has a listed within it*/
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*this sets the color of the text to white and */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/*this sets the font size of the content inside the p tag to 16 pixels*/
 p {
     font-size: 16px;
 }
@@ -58,24 +59,25 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*this floats the content to the right with a margin of 25 pixels*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/*this floats the content to the left with a margin of 25 pixels*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*this screated a tag named content with the  width and display padding and gap*/
 .content {
     width: 100%;
     display: flex;
     padding: 0 15px;
     gap: 0 15px;
 }
-
+/*this screated a tag named content and */
 .content .left {
     width: 75%;
 }
@@ -83,7 +85,7 @@ p {
 .content .right {
     width: 25%;
 }
-
+/*this screated a tag named benefits and creates the padding for the section*/
 .benefits {
     padding: 20px;
     clear: both;
@@ -93,55 +95,55 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*this screated a tag named benefits and creates the padding for the section*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*creates space from the bottom*/
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*creates space from the bottom*/
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*creates space from the bottom and aligns it to the center*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*creates space from the bottom and aligns it to the center*/
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*creates space from the bottom and aligns it to the center*/
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*sets the image width and marigin */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*sets the image width and marigin */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*sets the image width and marigin */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*sets the image width and marigin */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -150,7 +152,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* this creates padding around the header and creates a prioity list for the font sets background color and text color */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -159,7 +161,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* this creates padding around the header and creates a prioity list for the font sets background color and text color */
 .social-media-marketing {
     padding: 50px;
     min-height: 300px;
@@ -167,33 +169,33 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*sets the ceiling of teh text image*/
 .search-engine-optimization img {
     max-height: 200px;
 }
-
+/*sets the ceiling of teh text image*/
 .online-reputation-management img {
     max-height: 200px;
 }
-
+/*sets the ceiling of teh text image*/
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/*sets the floor of the header and font size*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*sets the floor of the header and font size*/
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*sets font size*/
 .social-media-marketing h2 {
     font-size: 36px;
 }
-
+/*sets padding around and font alignment of the footer*/
 .footer {
     padding: 30px;
     clear: both;
